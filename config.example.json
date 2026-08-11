@@ -1,0 +1,20 @@
+{
+  "interval_minutes": 90,
+  "daily_goal": 8,
+  "quiet_hours": {
+    "start": "22:00",
+    "end": "07:00"
+  },
+  "focus_keywords": [
+    "meeting",
+    "zoom",
+    "vs code",
+    "terminal"
+  ],
+  "escalation_enabled": true,
+  "reminder_levels": [
+    "gentle",
+    "normal",
+    "urgent"
+  ]
+}
