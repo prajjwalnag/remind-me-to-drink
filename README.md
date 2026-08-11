@@ -45,6 +45,28 @@ pyinstaller RemindMeToDrink.spec
 
 This produces `dist/RemindMeToDrink.exe` (~14 MB, single file, no console window). The build config lives in `RemindMeToDrink.spec` — re-run the same command after any code change to rebuild.
 
+## Screenshots
+
+### Tray Menu
+Quick access menu: log a drink, view status, adjust settings, or quit the app:
+
+![Tray Menu](screenshots/tray-menu.png)
+
+### Status Window
+Progress ring showing today's drink count with percentage, streak counter, and last 7 days of history:
+
+![Status Window](screenshots/status.png)
+
+### Settings Window
+Configurable reminders, quiet hours, daily goal, focus keywords, and escalation settings:
+
+![Settings Window](screenshots/settings.png)
+
+### Alert Notification
+Smart escalating reminders: gentle (1st), normal (2nd), and urgent (3rd+ ignored) with live drink count:
+
+![Alert Notification](screenshots/alert.png)
+
 ## Usage
 
 ### Starting the App
