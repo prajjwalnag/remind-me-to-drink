@@ -123,15 +123,6 @@ All hydration data is stored **locally** — there is no network access, cloud s
 
 `hydration.db` has two tables: `state` (today's counters, streak, last drink time) and `drink_log` (one row per past day, archived automatically at midnight). If you're upgrading from an older version of this app that used `hydration.json`, the app migrates that file into `hydration.db` automatically the first time it runs — the old `hydration.json` is left in place afterward (not deleted) in case you want to double-check the data before removing it yourself.
 
-## Icon Attribution
-
-The water droplet icon is from **Flaticon** and is used under the free license.
-
-**Please attribute:** 
-[Icon author/icon name](https://www.flaticon.com/) — [View the original icon page and add the specific author/link from your Flaticon download]
-
-Per Flaticon's free-tier license, please include a link to the specific icon and its author. You can find this information on the Flaticon download page where you got the icon.
-
 ## Notifications
 
 The app sends Windows toast notifications with level-appropriate messages:
@@ -147,6 +138,33 @@ The app sends Windows toast notifications with level-appropriate messages:
 - **Window detection not working**: The app uses Windows' native window APIs; make sure your active window title is visible and includes the focus keywords you configured
 - **Stuck in tray**: Right-click the icon and select "Quit" to exit cleanly
 
+## Contributing
+
+Contributions are welcome! Feel free to:
+- Fork the repository
+- Create a feature branch (`git checkout -b feature/your-feature`)
+- Make your changes
+- Commit and push to your fork
+- Open a pull request
+
+All contributions are subject to the MIT License.
+
 ## License
 
-This project is open source. See the icon attribution section for third-party credits.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+You are free to:
+- ✅ Use this project for any purpose (personal, commercial, etc.)
+- ✅ Modify and distribute it
+- ✅ Include it in your own projects
+
+The only requirement is to include a copy of the license and copyright notice.
+
+### Icon Attribution
+
+The water droplet icon is from **Flaticon** and is used under the free license.
+
+**Please attribute:** 
+[Icon author/icon name](https://www.flaticon.com/) — [View the original icon page and add the specific author/link from your Flaticon download]
+
+Per Flaticon's free-tier license, please include a link to the specific icon and its author. You can find this information on the Flaticon download page where you got the icon.
